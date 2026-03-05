@@ -1,0 +1,20 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Event Processing Pipeline hero banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.88" cy="0.1" r="0.86">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.33"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+  <rect x="64" y="132" width="116" height="56" rx="12" fill="#e0f2fe" fill-opacity="0.16" stroke="#e0f2fe" stroke-opacity="0.45"/>
+  <rect x="224" y="132" width="116" height="56" rx="12" fill="#ccfbf1" fill-opacity="0.16" stroke="#ccfbf1" stroke-opacity="0.45"/>
+  <line x1="180" y1="160" x2="224" y2="160" stroke="#e2e8f0" stroke-width="4"/>
+  <polygon points="224,160 210,152 210,168" fill="#e2e8f0"/>
+  <text x="388" y="138" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Event Processing Pipeline</text>
+  <text x="388" y="190" fill="#ccfbf1" font-family="Segoe UI, Arial, sans-serif" font-size="28">Node ingestion plus Python enrichment in a two service flow</text>
+</svg>
