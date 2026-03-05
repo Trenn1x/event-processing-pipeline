@@ -37,3 +37,6 @@ curl -X POST http://127.0.0.1:3000/api/events \
   -H "Content-Type: application/json" \
   -d '{"event":"checkout","user_id":"123"}'
 ```
+
+## Service Flow
+![Event Pipeline Flow](assets/flow.svg)
